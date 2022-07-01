@@ -1,0 +1,31 @@
+/** @format */
+*{
+    margin: 0;
+    
+}
+.content {
+	height: 200px;
+}
+
+.content1 {
+	background-color: black;
+}
+
+.content2 {
+	background-color: aquamarine;
+}
+
+.content3 {
+	background-color: brown;
+    width: 400px;
+}
+.conten-principal {
+	display: grid;
+	grid-template-rows: 70%;
+	grid-template-columns: repeat(4, 2fr);
+}
+
+.interno {
+	background-color: aqua;
+    width: 400px;
+}
